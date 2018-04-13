@@ -1,0 +1,35 @@
+{
+  "name": "koa-backend-es6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "babel-watch index.js",
+    "build": "babel -d build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mansarip/koa-backend-es6.git"
+  },
+  "author": "@luqmanrasa",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mansarip/koa-backend-es6/issues"
+  },
+  "homepage": "https://github.com/mansarip/koa-backend-es6#readme",
+  "dependencies": {
+    "@koa/cors": "^2.2.1",
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-cookie": "^1.0.0",
+    "koa-router": "^7.4.0"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-spread": "^6.22.0",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "babel-watch": "^2.0.7"
+  }
+}
